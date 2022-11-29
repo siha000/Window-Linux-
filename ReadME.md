@@ -11,7 +11,7 @@ Window/Linux雙系統安裝
 
 ![markdown-viewer](Image/1.png)
 
-+ 接下來選擇要給Ubuntu安裝大小空間，1GB等於1024MB，這邊是用40GB給Ubuntu，因此打40960
++ 接下來選擇要給Ubuntu安裝大小空間，1GB等於1024MB，這邊是用40GB給Ubuntu，因此打40960，分區的位置記得好，等等安裝需要用到
 
 ![markdown-viewer](Image/2.png)
 
@@ -67,3 +67,18 @@ https://www.ubuntu-tw.org/modules/tinyd0/
 + 先回到Window系統，打開CMD，輸入**msconfig**，出現以下畫面，點選開機，裡面有一個安全開機，點開後重新啟動，進入BOIS
 
 ![markdown-viewer](Image/9.png)
+
++ 接下來點AHCI，因為RST是使用RAID模式，下載完Ubuntu後再將其改回ACHI，並將安全模式關閉
+
+![markdown-viewer](Image/10.jpg)
+
+### 安裝Ubuntu注意事項
+
++ 安裝Ubuntu同時下載更新若為灰色，代表電腦目前沒有網路，需要聯網並將選項勾起
+
+![markdown-viewer](Image/11.png)
+
++ 選擇其他，點進去後選擇自己剛剛分區的位置
+
+![markdown-viewer](Image/12.png)
+
